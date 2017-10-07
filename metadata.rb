@@ -5,7 +5,7 @@ license 'all_rights'
 description 'Installs/Configures frc_laptop'
 long_description 'Installs/Configures frc_laptop'
 <<<<<<< HEAD
-version '0.3.9'
+version '0.4.0'
 =======
 version '0.3.10'
 >>>>>>> installedsoftware
