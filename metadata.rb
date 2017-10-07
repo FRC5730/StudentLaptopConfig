@@ -4,11 +4,7 @@ maintainer_email 'james@dxrf.com'
 license 'all_rights'
 description 'Installs/Configures frc_laptop'
 long_description 'Installs/Configures frc_laptop'
-<<<<<<< HEAD
 version '0.4.0'
-=======
-version '0.3.10'
->>>>>>> installedsoftware
 
 # The `issues_url` points to the location where issues for this cookbook are
 # tracked.  A `View Issues` link will be displayed on this cookbook's page when

@@ -8,8 +8,5 @@
 include_recipe 'chef-client'
 include_recipe 'frc_laptop::activation'
 include_recipe 'frc_laptop::windowsupdates'
-<<<<<<< HEAD
 include_recipe 'frc_laptop::disable_uac'
-=======
-include_recipe 'frc_laptop::desktopshortcuts'
->>>>>>> installedsoftware
+include_recipe 'frc_laptop::disable_firewall'
