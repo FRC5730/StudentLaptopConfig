@@ -4,11 +4,7 @@ maintainer_email 'james@dxrf.com'
 license 'all_rights'
 description 'Installs/Configures frc_laptop'
 long_description 'Installs/Configures frc_laptop'
-<<<<<<< HEAD
-version '0.3.9'
-=======
-version '0.3.10'
->>>>>>> installedsoftware
+version '0.4.3'
 
 # The `issues_url` points to the location where issues for this cookbook are
 # tracked.  A `View Issues` link will be displayed on this cookbook's page when
@@ -22,3 +18,4 @@ version '0.3.10'
 #
 # source_url 'https://github.com/<insert_org_here>/frc_laptop' if respond_to?(:source_url)
 depends 'chef-client'
+depends 'firewall'
