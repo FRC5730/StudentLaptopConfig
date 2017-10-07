@@ -8,3 +8,4 @@
 include_recipe 'chef-client'
 include_recipe 'frc_laptop::activation'
 include_recipe 'frc_laptop::windowsupdates'
+include_recipe 'frc_laptop::desktopshortcuts'
