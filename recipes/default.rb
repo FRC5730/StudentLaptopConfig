@@ -6,5 +6,5 @@
 
 # This is a wrapper recipe that includes separate recipes for each chunk of work being done.
 include_recipe 'chef-client'
-include_recipe 'activation'
-include_recipe 'windowsupdates'
+include_recipe 'frc_laptop::activation'
+include_recipe 'frc_laptop::windowsupdates'

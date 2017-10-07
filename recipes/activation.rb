@@ -4,7 +4,7 @@
 #
 # Copyright:: 2017, FRC 5730, All Rights Reserved.
 
-keys = data_bag_item('cdkeys', 'activation_key')
+keys = data_bag_item('cdkey', 'activation_key')
 
 execute 'Install Windows Product Key' do
   command "start %windir%\system32\slmgr.vbs /ipk keys['cdkey']"
