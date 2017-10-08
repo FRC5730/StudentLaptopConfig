@@ -7,7 +7,7 @@
 keys = data_bag_item('cdkey', 'activation_key')
 
 execute 'Install Windows Product Key' do
-  command "start %windir%\system32\slmgr.vbs /ipk keys['cdkey']"
+  command "start %windir%\\system32\\slmgr.vbs /ipk #{keys['value']}"
   action :run
   guard_interpreter :powershell_script
   not_if 'test-path c:\windows\activated.txt'
